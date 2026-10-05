@@ -1,0 +1,6 @@
+let boom = fn(x) { x + "text" };
+let a = boom(1);
+let b = 3 / 0;
+let c = boom(2) + zzz;
+write(c);
+let d = first(7);

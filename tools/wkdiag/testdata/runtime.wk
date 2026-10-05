@@ -1,0 +1,6 @@
+let bad = fn(a, b) { a / b };
+let one = bad(1);
+let z = 2 / 0;
+write(unknown + 1);
+let t = 1 + "x";
+write(bad(4, 2, 9));

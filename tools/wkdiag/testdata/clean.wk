@@ -1,0 +1,10 @@
+let add = fn(a, b) { a + b };
+let nums = [3, 1, 4];
+let m = {"n": add(nums[0], nums[1]), "ok": true, "tag": "wk"};
+let pick = fn(x, y) { if (x > y) { x } else { y } };
+write(pick(m["n"], len("wukong")));
+write(add(1, 2, 3));
+let tail = fn(a) { append(a, 0) };
+write(len(tail(nums)));
+let neg = -add(1, 2);
+write(last(nums) + first(nums));
